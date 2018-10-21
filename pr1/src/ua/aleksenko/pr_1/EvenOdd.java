@@ -13,10 +13,6 @@ public class EvenOdd {
 
     public static void evenOddMethod(int beginning, int end) {
 
-//        if (Math.abs(beginning) > Integer.MAX_VALUE - 1 || Math.abs(end) > (Integer.MAX_VALUE - 1)) {
-//            printMesg("Enter a number whose module is less " + (Integer.MAX_VALUE - 1));
-//        } else {
-
             printMesg("You diapason : " + beginning + " - " + end);
 
             int sumOdd = 0;
@@ -44,4 +40,3 @@ public class EvenOdd {
             printMesg("Summ Even :" + sumeEven + " Summ Odd :" + sumOdd);
         }
     }
-//}
