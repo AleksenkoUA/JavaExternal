@@ -46,7 +46,6 @@ public class Fibonacci {
             EvenOdd.printMesg("\n Percent Even  : " + form.format(percentEven) +
                     "\n Percent Odd : " + form.format(100 - percentEven));
 
-
         }
     }
 }
